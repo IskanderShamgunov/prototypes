@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цепочка прототипов</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="./js/index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form class="form" name="prototypeForm" action="#">
+      <div class="form__input-wrapper">
+        <input class="form__input" type="text" name="prototypeValue">
+        <span class="form__error" name="error"></span>
+      </div>
+      <button class="form__btn" type="submit">
+        Показать цепочку прототипов
+      </button>
+    </form>
+    <div id="prototypes"></div>
+  </div>
+</body>
+</html>
